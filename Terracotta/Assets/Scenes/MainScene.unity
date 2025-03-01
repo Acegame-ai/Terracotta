@@ -168,6 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226688177}
   - component: {fileID: 226688178}
+  - component: {fileID: 226688179}
   m_Layer: 0
   m_Name: Rock n Grass (1)
   m_TagString: Untagged
@@ -244,6 +245,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &226688179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226688176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 226688178}
 --- !u!1 &248128671
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248128672}
   - component: {fileID: 248128673}
+  - component: {fileID: 248128674}
   m_Layer: 0
   m_Name: Grass (1)
   m_TagString: Untagged
@@ -330,6 +345,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &248128674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248128671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 248128673}
 --- !u!1 &347549322
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347549323}
   - component: {fileID: 347549324}
+  - component: {fileID: 347549325}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -416,6 +445,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &347549325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347549322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 347549324}
 --- !u!1 &388047795
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 388047796}
   - component: {fileID: 388047797}
+  - component: {fileID: 388047798}
   m_Layer: 0
   m_Name: Bush
   m_TagString: Untagged
@@ -502,6 +545,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &388047798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388047795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 388047797}
 --- !u!1 &389841221
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +571,7 @@ GameObject:
   - component: {fileID: 389841223}
   - component: {fileID: 389841222}
   - component: {fileID: 389841226}
+  - component: {fileID: 389841227}
   m_Layer: 0
   m_Name: Dave
   m_TagString: Untagged
@@ -666,8 +723,21 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.7682761}
+  m_Offset: {x: 0, y: 1.8}
   m_Radius: 1.7917238
+--- !u!114 &389841227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389841221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 389841224}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 655335048}
   - component: {fileID: 655335049}
+  - component: {fileID: 655335050}
   m_Layer: 0
   m_Name: Bush (1)
   m_TagString: Untagged
@@ -990,6 +1061,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &655335050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655335047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 655335049}
 --- !u!1 &800513828
 GameObject:
   m_ObjectHideFlags: 0
@@ -72326,6 +72410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839981487}
   - component: {fileID: 839981488}
+  - component: {fileID: 839981489}
   m_Layer: 0
   m_Name: Bush (2)
   m_TagString: Untagged
@@ -72402,6 +72487,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &839981489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839981486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 839981488}
 --- !u!1 &1104333437
 GameObject:
   m_ObjectHideFlags: 0
@@ -72545,6 +72643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122803096}
   - component: {fileID: 1122803097}
+  - component: {fileID: 1122803098}
   m_Layer: 0
   m_Name: Rock n Grass
   m_TagString: Untagged
@@ -72621,6 +72720,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1122803098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122803095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1122803097}
 --- !u!1001 &1298125726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73036,6 +73148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1897693922}
   - component: {fileID: 1897693923}
+  - component: {fileID: 1897693924}
   m_Layer: 0
   m_Name: Grass (2)
   m_TagString: Untagged
@@ -73112,6 +73225,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1897693924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897693921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064fb924c6022444faaf84df75e97361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1897693923}
 --- !u!1 &1955272253
 GameObject:
   m_ObjectHideFlags: 0
