@@ -15,12 +15,12 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.right;
+        rb.linearVelocity = Vector2.right;
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
-        rb.velocity = playerJoystick.GetMoveVector() * speed * Time.deltaTime;
+        rb.linearVelocity = playerJoystick.GetMoveVector() * speed * Time.deltaTime;
     }
 }
